@@ -12,10 +12,12 @@ class SpotifySearchViewController: UIViewController {
 
     @IBOutlet weak var tfSearch: UITextField!
     @IBOutlet weak var tvSearch: UITableView!
+    
     @IBAction func touchSearch(_ sender: Any) {
         guard let term = tfSearch.text, term.lengthOfBytes(using: String.Encoding.unicode) > 0 else {
             return
         }
+        tfSearch.resignFirstResponder()
         presenter.search(term: term)
     }
     
