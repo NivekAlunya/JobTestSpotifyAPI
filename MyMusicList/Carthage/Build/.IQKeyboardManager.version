@@ -1,0 +1,22 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "v6.2.0",
+  "iOS" : [
+    {
+      "name" : "IQKeyboardManager",
+      "hash" : "655c792513706d3addf57545220414e46aac2cd015744bac45d4d23786c1fe90"
+    },
+    {
+      "name" : "IQKeyboardManagerSwift",
+      "hash" : "a4b1f8ee5435a5bd2425f21b2112c9129b1087eb1d47e53b349b071bb011fafe"
+    }
+  ]
+}
